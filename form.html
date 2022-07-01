@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+</head>
+<body>
+    <form action="mailto:phamminhquan2002@gmail.com" method="post">
+        <h1>Contact Information</h1>
+        <table cellspacing = "20">
+            <tr>
+                <td><label for="name">Name: </label></td>
+                <td><input type="text" id="name"></td>
+            </tr>
+            <tr>
+                <td><label for="phone">Phone Number: </label></td>
+                <td> <input type="tel" name="phone" id="phone"></td>
+            </tr>
+            <tr>
+                <td> <label for="email">Email: </label></td>
+                <td><input type="email" name="email" id="email" required></td>
+            </tr>
+            <tr>
+                <td><label for="date">Date File:</label></td>
+                <td> <input type="date" name="date" id="date"></td>
+            </tr>
+            <tr>
+                <td><label for="orderNumber">Order Number:</label></td>
+                <td><input type="number" name="quantity" id="quantity" min="0" max="99"></td>
+            </tr>
+            <tr>
+                <td>Comments:</td>
+                <td><textarea name="comments" id="comments" cols="30" rows="10"></textarea></td>
+            </tr>
+            <tr>
+                <td><input type="submit" value="Submit"></td>
+            </tr>
+        </table>        
+    </form>
+    <a href="index.html">Back to Profile</a>
+</body>
+</html>
